@@ -7,7 +7,7 @@ function User(name, age) {
     name = name || 'По умолчанию';
     //Проверки
 
-    this.name = name;
+    // this.name = name;
 
     function getAge() {
         return age;
