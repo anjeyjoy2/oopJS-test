@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOP JS</title>
+
+    <script>
+        //ES5
+        var vasy, alex;
+        function user(name) {
+            name = name || 'По умолчанию';
+            vasy = name;
+        }
+
+        function user2(name) {
+            name = name || 'По умолчанию';
+            alex = name;
+        }
+
+        function userall(name) {
+            name = name || 'По умолчанию';
+            return name;
+        }
+
+
+        user('Василий');
+        user2('Алексей');
+        vasy = userall('Василий');
+        alex = userall('Алексей');
+        console.log(vasy);
+        console.log(alex);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
